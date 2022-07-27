@@ -1,0 +1,98 @@
+/*Comentários dentro do código CSS*/
+
+/*TAGs*/
+
+P{
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    /*Paragrafo*/
+}
+
+Body{
+    background-color: #0ABAB5;
+    text-align: left;
+}
+
+/* O elemento * altera toda a pagina*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #0ABAB5;
+    height: 60px;
+    padding: 10PX;
+    /*Cabeçalho*/
+}
+
+footer{
+    clear: both;
+    background-color: #0ABAB5;
+    height: 50px;
+    width: 1516px;
+    /*Texto*/
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    /*Rodapé*/
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 1px #111111;
+    text-align: center;
+    margin: 0 0 50px 0;
+    /*Titulo*/
+}
+
+/* IDs */
+
+#principal{
+background-image: url('anel.jpg');
+background-size: 100%;
+min-height: 300px;
+padding: 100px;
+clear: both;
+/*Imagem principal da Pág*/
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    margin-top: 30px;
+}
+
+#menu a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #111
+}
+
+#menu a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* CLASS */
+
+.Container{
+width: 960px;
+margin: 0 auto;
+}
+
+.efeito{
+background-color: rgba(0, 0, 0, 0.5);
+padding: 90px 0 100px;
+text-align: center;
+}
+
+
